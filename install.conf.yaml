@@ -1,0 +1,19 @@
+- defaults:
+    link:
+        relink: true
+
+- clean:
+    ~/:
+        force: true
+    ~/.config:
+        recursive: true
+
+- link:
+    ~/.config/:
+        glob: true
+        path: config/**
+        relink: true
+        create: true
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
