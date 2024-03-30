@@ -1,0 +1,14 @@
+[[items]]
+file = "~/.config/kitty/colors.conf"
+template = "kitty"
+rewrite = true
+
+[[items]]
+file = "~/.config/waybar/colors.css"
+template = "waybar"
+rewrite = true
+
+[[items]]
+file = "~/.config/micro/colorschemes/colors.micro"
+template = "micro"
+rewrite = true

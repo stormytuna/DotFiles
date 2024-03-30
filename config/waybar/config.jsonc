@@ -1,0 +1,31 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 24,
+    "margin": "7, 7, 3, 7",
+
+	"include": [
+		"~/.config/waybar/modules.jsonc"
+	],
+    
+    "modules-left": [
+    	"custom/shutdown",
+    	"tray",
+    	"custom/notifications",
+    	"pulseaudio",
+    	"bluetooth",
+    	"hyprland/window"
+    ],
+    "modules-center": ["mpris"],
+    "modules-right": [
+    	"cpu",
+    	"custom/gpu",
+    	"memory",
+    	"network",
+    	"clock"
+    ]
+}

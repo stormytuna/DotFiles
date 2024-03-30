@@ -1,0 +1,123 @@
+@import "colors.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", FontAwesome;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#custom-shutdown,
+#tray,
+#custom-notifications,
+#pulseaudio,
+#bluetooth,
+#window,
+#custom-waybar-mpris,
+#mpris,
+#cpu,
+#custom-gpu,
+#memory,
+#network,
+#clock {
+	padding: 2px 6px;
+	background: #1e1e2e;
+    color: #eeeeee;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #eeeeee
+}
+
+#custom-shutdown {
+  color: @base08;
+  border-color: @base08;
+  border-radius: 8px 0px 0px 8px;
+}
+      
+#tray {
+  color: @base09;
+  border-color: @base09;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+}
+
+#custom-notifications {
+  color: @base0A;
+  border-color: @base0A;
+}
+
+#pulseaudio {
+  color: @base0B;
+  border-color: @base0B;
+}
+
+#bluetooth {
+  color: @base0C;
+  border-color: @base0C;
+}
+
+#window {
+  border-radius: 0px 8px 8px 0px;
+  color: @base0D;
+  border-color: @base0D;
+}
+
+#custom-waybar-mpris {
+  border-radius: 8px;
+  color: @base0F;
+  border-color: @base0F;
+}
+
+#mpris {
+  border-radius: 8px;
+  color: @base0F;
+  border-color: @base0F;
+}
+
+#cpu {
+  border-radius: 8px 0px 0px 8px;
+  color: @base0C;
+  border-color: @base0C;
+}
+
+#custom-gpu {
+  color: @base0B;
+  border-color: @base0B;
+}
+
+#memory {
+  color: @base0A;
+  border-color: @base0A;
+}
+
+#network {
+  color: @base09;
+  border-color: @base09
+}
+
+#clock {
+  border-radius: 0px 8px 8px 0px;
+  color: @base08;
+  border-color: @base08;
+}

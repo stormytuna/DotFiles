@@ -19,7 +19,7 @@ function change-theme
 
     # fzf wallpaper if we're not skipping it
     if test -z "$_flag_skipwallpaper"
-        set -l chosen_wallpaper (eza --oneline ~/Pictures/Wallpapers | fzf)
+        set -l chosen_wallpaper (eza --oneline ~/Pictures/Wallpapers | fzf) # TODO: Fix issue with this - ctrl+c out of the fzf causes a symlink to be made in current dir
         ln -sf ~/Pictures/Wallpapers/$chosen_wallpaper ~/.config/hypr/wallpaper.png
         refresh-wallpaper
     end

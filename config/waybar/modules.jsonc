@@ -1,0 +1,107 @@
+// -*- mode: jsonc -*-
+{
+	"custom/shutdown": {
+		"exec": "echo ",
+		"format": "{} ",
+		"return-type": "",
+		"interval": "once",
+		"on-click": "wlogout"
+	},
+
+  "tray": {
+    "spacing": 5
+  },
+
+  "custom/notifications": {
+    "tooltip": false,
+    "format": "{}  ",
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "pulseaudio": {
+		"format": "{volume}% {icon}  {format_source}",
+		"format-bluetooth": "{volume}% {icon}  {format_source}",
+		"format-bluetooth-muted": "󰸈 {icon}  {format_source}",
+		"format-muted": "󰸈 {format_source}",
+		"format-source": "{volume}% ",
+		"format-source-muted": " ",
+		"format-icons": {
+		  "headphone": "",
+		  "hands-free": "",
+		  "headset": "",
+		  "phone": "",
+		  "portable": "",
+		  "car": "",
+		  "default": [ "", "", "" ]
+		},
+	  "scroll-step": 1,
+	  "on-click": "pavucontrol"
+	},
+
+  "bluetooth": {
+
+  },
+
+  "hyprland/window": {
+		"format": "> {initialTitle}",
+		"separate-outputs": true
+	},
+
+  "custom/waybar-mpris": {
+    "return-type": "json",
+    "exec": "waybar-mpris --position --autofocus --separator ' | '",
+    "on-click": "waybar-mpris --send toggle",
+    "on-scroll-up": "waybar-mpris --send next",
+    "on-scroll-down": "waybar-mpris --send prev",
+    "escape": true
+  },
+
+  "mpris": {
+    "format": "{player_icon}  | {title} | {artist} ({position}/{length})",
+    "tooltip-format": "",
+    "player-icons": {
+      "default": "",
+      "firefox": "",
+      "spotify": ""
+    },
+    "status-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "interval": 1
+  },
+
+	"cpu": {
+		"format": " {usage}%  ",
+    "interval": 15
+	},
+
+  "custom/gpu": {
+		"exec": "cat /sys/class/hwmon/hwmon1/device/gpu_busy_percent",
+		"format": " {}%  ",
+		"return-type": "",
+		"interval": 15
+	},
+
+	"memory": {
+		"format": " {}%  ",
+    "interval": 15
+	},
+
+  "network": {
+    "format-ethernet": "{ipaddr}  | {bandwidthDownBytes}   {bandwidthUpBytes}  ",
+    "format-wireless": "{ipaddr}  | {bandwidthDownBytes}   {bandwidthUpBytes}  ",
+    "interval": 15
+  },
+
+	"clock": {
+	  "interval": 1,
+	  "format": "{:%d-%m-%Y %H:%M:%S}",
+	  "max-length": 25
+	}
+}
