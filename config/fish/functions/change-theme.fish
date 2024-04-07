@@ -13,7 +13,7 @@ function change-theme
     # print valid colour schemes
     if set -ql _flag_themes
         echo "Available themes:"
-        flavours list --lines | grep -v light
+        flavours list --lines
         return 0
     end
 

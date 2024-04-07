@@ -40,7 +40,8 @@
 		  "default": [ "", "", "" ]
 		},
 	  "scroll-step": 1,
-	  "on-click": "pavucontrol"
+	  "on-click": "pavucontrol",
+	  "on-click-right": "~/.config/waybar/scripts/audio_changer.py"
 	},
 
   "bluetooth": {

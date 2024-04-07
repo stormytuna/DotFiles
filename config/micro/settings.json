@@ -1,3 +1,9 @@
 {
-    "colorscheme": "colors"
+    "autosu": true,
+    "colorcolumn": 120,
+    "colorscheme": "colors",
+    "diffgutter": true,
+    "matchbracestyle": "highlight",
+    "scrollbar": true,
+    "status": true
 }

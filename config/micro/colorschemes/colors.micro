@@ -1,43 +1,44 @@
-# Base16 Rebecca - Micro colour config
-# Scheme by Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
-color-link default "#f1eff8,#292a44"
-color-link comment "#666699,#292a44"
-color-link identifier "#a0a0c5,#292a44"
-color-link identifier.class "#ae81ff"
-color-link constant "#a0a0c5,#292a44"
-color-link constant.bool "#efe4a1"
-color-link constant.number "#efe4a1"
-color-link constant.string "#6dfedf,#292a44"
-color-link constant.string.char "#6dfedf,#292a44"
-color-link statement "#7aa5ff,#292a44"
-color-link symbol "#f1eff8,#292a44"
-color-link symbol.tag "#a0a0c5"
-color-link preproc "#7aa5ff,#292a44"
-color-link type "#ae81ff,#292a44"
-color-link type.keyword "#7aa5ff"
-color-link special "#7aa5ff,#292a44"
-color-link underlined "#ae81ff,#292a44"
-color-link error "bold #a0a0c5,#292a44"
-color-link todo "bold #8eaee0,#292a44"
-color-link selection "#383a62"
-color-link statusline "#663399,#f1eff8"
-color-link tabbar "#663399,#f1eff8"
-color-link indent-char "#663399,#292a44"
-color-link line-number "#663399,#292a44"
-color-link gutter-error "#7aa5ff,#292a44"
-color-link gutter-warning "#6dfedf,#292a44"
-color-link diff-added "#6dfedf"
-color-link diff-modified "#7aa5ff"
-color-link diff-deleted "#a0a0c5"
-color-link cursor-line "#666699"
-color-link current-line-number "#666699,#292a44"
-color-link color-column "#292a44"
-color-link ignore "#2de0a7"
-color-link scrollbar "#663399"
-color-link divider "#663399"
-color-link message "#a0a0c5"
-color-link error-message "#a0a0c5"
-color-link match-brace "#292a44,#efe4a1"
-color-link hlsearch "#f1eff8,#663399"
-color-link tab-error "#a0a0c5"
-color-link trailingws "#663399"
+# Base16 Bespin - micro color scheme
+# Scheme by Jan T. Sott
+
+color-link default "#8a8986,#28211c"
+
+color-link comment "#666666"
+
+color-link constant "#cf7d34"
+color-link constant.specialChar "#937121"
+color-link constant.string "#54be0d"
+
+color-link identifier "#cf6a4c"
+color-link identifier.class "#f9ee98"
+
+color-link preproc "#f9ee98"
+
+color-link special "#afc4db"
+
+color-link statement "#cf6a4c"
+
+color-link symbol.operator "#8a8986"
+color-link symbol.tag "#8a8986"
+
+color-link type "#f9ee98"
+
+color-link underlined "#cf6a4c"
+
+color-link error "bold #28211c,#cf6a4c"
+color-link todo "bold #f9ee98,#36312e"
+color-link hlsearch "#36312e,#f9ee98"
+color-link statusline "#797977,#5e5d5c"
+color-link tabbar "#666666,#36312e"
+color-link indent-char "#666666"
+color-link line-number "#666666,#36312e"
+color-link current-line-number "#797977,#36312e"
+
+color-link diff-added "#54be0d,#36312e"
+color-link diff-modified "#666666,#36312e"
+color-link diff-deleted "#cf6a4c,#36312e"
+color-link gutter-error "#cf6a4c,#36312e"
+color-link gutter-warning "#5ea6ea,#36312e"
+
+color-link cursor-line "#36312e"
+color-link color-column "#36312e"

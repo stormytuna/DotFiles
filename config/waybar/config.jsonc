@@ -20,7 +20,7 @@
     	"bluetooth",
     	"hyprland/window"
     ],
-    "modules-center": ["mpris"],
+    // "modules-center": ["mpris"],
     "modules-right": [
     	"cpu",
     	"custom/gpu",

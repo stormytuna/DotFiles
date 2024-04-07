@@ -1,23 +1,23 @@
 /*
 *
-* Base16 Rebecca
-* Author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+* Base16 Bespin
+* Author: Jan T. Sott
 *
 */
 
-@define-color base00 #292a44;
-@define-color base01 #663399;
-@define-color base02 #383a62;
-@define-color base03 #666699;
-@define-color base04 #a0a0c5;
-@define-color base05 #f1eff8;
-@define-color base06 #ccccff;
-@define-color base07 #53495d;
-@define-color base08 #a0a0c5;
-@define-color base09 #efe4a1;
-@define-color base0A #ae81ff;
-@define-color base0B #6dfedf;
-@define-color base0C #8eaee0;
-@define-color base0D #2de0a7;
-@define-color base0E #7aa5ff;
-@define-color base0F #ff79c6;
+@define-color base00 #28211c;
+@define-color base01 #36312e;
+@define-color base02 #5e5d5c;
+@define-color base03 #666666;
+@define-color base04 #797977;
+@define-color base05 #8a8986;
+@define-color base06 #9d9b97;
+@define-color base07 #baae9e;
+@define-color base08 #cf6a4c;
+@define-color base09 #cf7d34;
+@define-color base0A #f9ee98;
+@define-color base0B #54be0d;
+@define-color base0C #afc4db;
+@define-color base0D #5ea6ea;
+@define-color base0E #9b859d;
+@define-color base0F #937121;
