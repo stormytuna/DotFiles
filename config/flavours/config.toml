@@ -12,3 +12,8 @@ rewrite = true
 file = "~/.config/micro/colorschemes/colors.micro"
 template = "micro"
 rewrite = true
+
+[[items]]
+file = "~/.vscode/extensions/stormytuna.flavours-color-theme.json"
+template = "vscode"
+rewrite = true
