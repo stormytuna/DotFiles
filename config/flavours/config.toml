@@ -2,11 +2,13 @@
 file = "~/.config/kitty/colors.conf"
 template = "kitty"
 rewrite = true
+hook = "kitty @ set-colors --all --configured ~/.config/kitty/colors.conf"
 
 [[items]]
 file = "~/.config/waybar/colors.css"
 template = "waybar"
 rewrite = true
+hook = "killall waybar && waybar &> /dev/null & disown"
 
 [[items]]
 file = "~/.config/micro/colorschemes/colors.micro"
@@ -14,6 +16,13 @@ template = "micro"
 rewrite = true
 
 [[items]]
-file = "~/.vscode/extensions/stormytuna.flavours-color-theme.json"
-template = "vscode"
+file = "~/.config/nvim/colors/colors.lua"
+template = "nvim"
 rewrite = true
+
+[[items]]
+file = "~/.config/spicetify/Themes/base16/colors.ini"
+template = "spotify"
+rewrite = true
+hook = "spicetify update"
+

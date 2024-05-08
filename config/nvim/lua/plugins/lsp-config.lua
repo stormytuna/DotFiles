@@ -1,5 +1,8 @@
 return {
   {
+    "Hoffs/omnisharp-extended-lsp.nvim",
+  },
+  {
     "williamboman/mason.nvim",
     config = function()
       require("mason").setup()
@@ -11,7 +14,8 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "csharp_ls"
+          -- "csharp_ls",
+          "omnisharp",
         },
       })
     end,
@@ -19,12 +23,25 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
-      local lspconfig = require("lspconfig")
-      lspconfig.lua_ls.setup({})
-      lspconfig.csharp_ls.setup({})
+      local config = require("lspconfig")
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
+      config.lua_ls.setup({ capabilities = capabilities })
+      -- config.csharp_ls.setup({ capabilities = capabilities })
+      config.omnisharp.setup({
+        cmd = { "dotnet", "/home/stormytuna/.local/share/omnisharp/OmniSharp.dll" },
+        handlers = {
+          ["textDocument/definition"] = require("omnisharp_extended").definition_handler,
+          ["textDocument/typeDefinition"] = require("omnisharp_extended").type_definition_handler,
+          ["textDocument/references"] = require("omnisharp_extended").references_handler,
+          ["textDocument/implementation"] = require("omnisharp_extended").implementation_handler,
+        },
+      })
 
-      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-      vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
+      vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
+      vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
+      vim.keymap.set("i", "<C-s>", vim.lsp.buf.signature_help, {})
+      vim.keymap.set("n", "<leader>rr", vim.lsp.buf.rename, {})
       vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
     end,
   },

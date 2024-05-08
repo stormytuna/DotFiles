@@ -1,44 +1,44 @@
-# Base16 Atelier Lakeside - micro color scheme
-# Scheme by Bram de Haan (http://atelierbramdehaan.nl)
+# Base16 Catppuccin Macchiato - micro color scheme
+# Scheme by https://github.com/catppuccin/catppuccin
 
-color-link default "#7ea2b4,#161b1d"
+color-link default "#cad3f5,#24273a"
 
-color-link comment "#5a7b8c"
+color-link comment "#494d64"
 
-color-link constant "#935c25"
-color-link constant.specialChar "#b72dd2"
-color-link constant.string "#568c3b"
+color-link constant "#f5a97f"
+color-link constant.specialChar "#f0c6c6"
+color-link constant.string "#a6da95"
 
-color-link identifier "#d22d72"
-color-link identifier.class "#8a8a0f"
+color-link identifier "#ed8796"
+color-link identifier.class "#eed49f"
 
-color-link preproc "#8a8a0f"
+color-link preproc "#eed49f"
 
-color-link special "#2d8f6f"
+color-link special "#8bd5ca"
 
-color-link statement "#d22d72"
+color-link statement "#ed8796"
 
-color-link symbol.operator "#7ea2b4"
-color-link symbol.tag "#7ea2b4"
+color-link symbol.operator "#cad3f5"
+color-link symbol.tag "#cad3f5"
 
-color-link type "#8a8a0f"
+color-link type "#eed49f"
 
-color-link underlined "#d22d72"
+color-link underlined "#ed8796"
 
-color-link error "bold #161b1d,#d22d72"
-color-link todo "bold #8a8a0f,#1f292e"
-color-link hlsearch "#1f292e,#8a8a0f"
-color-link statusline "#7195a8,#516d7b"
-color-link tabbar "#5a7b8c,#1f292e"
-color-link indent-char "#5a7b8c"
-color-link line-number "#5a7b8c,#1f292e"
-color-link current-line-number "#7195a8,#1f292e"
+color-link error "bold #24273a,#ed8796"
+color-link todo "bold #eed49f,#1e2030"
+color-link hlsearch "#1e2030,#eed49f"
+color-link statusline "#5b6078,#363a4f"
+color-link tabbar "#494d64,#1e2030"
+color-link indent-char "#494d64"
+color-link line-number "#494d64,#1e2030"
+color-link current-line-number "#5b6078,#1e2030"
 
-color-link diff-added "#568c3b,#1f292e"
-color-link diff-modified "#5a7b8c,#1f292e"
-color-link diff-deleted "#d22d72,#1f292e"
-color-link gutter-error "#d22d72,#1f292e"
-color-link gutter-warning "#257fad,#1f292e"
+color-link diff-added "#a6da95,#1e2030"
+color-link diff-modified "#494d64,#1e2030"
+color-link diff-deleted "#ed8796,#1e2030"
+color-link gutter-error "#ed8796,#1e2030"
+color-link gutter-warning "#8aadf4,#1e2030"
 
-color-link cursor-line "#1f292e"
-color-link color-column "#1f292e"
+color-link cursor-line "#1e2030"
+color-link color-column "#1e2030"

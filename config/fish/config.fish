@@ -14,10 +14,12 @@ if status is-interactive
   alias cat "bat"
   alias nano "micro"
   alias cl "clear; neofetch"
-  alias la "eza --long --all $argv"
-  alias ll "eza --long $argv"
+  alias la "eza --long --all --icons"
+  alias ll "eza --long --icons"
   alias ls "eza"
   alias zz "z -"
+
+  alias trim "awk '{\$1=\$1};1'"
 
   if test (tty) = "/dev/tty1"
     Hyprland
@@ -25,3 +27,4 @@ if status is-interactive
 
   neofetch
 end
+

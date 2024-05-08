@@ -45,7 +45,7 @@
 	},
 
   "bluetooth": {
-
+    "format": " {device_alias} - {status}"
   },
 
   "hyprland/window": {
