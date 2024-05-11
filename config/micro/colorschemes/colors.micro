@@ -1,44 +1,44 @@
-# Base16 Purpledream - micro color scheme
-# Scheme by malet
+# Base16 Porple - micro color scheme
+# Scheme by Niek den Breeje (https://github.com/AuditeMarlow)
 
-color-link default "#ddd0dd,#100510"
+color-link default "#d8d8d8,#292c36"
 
-color-link comment "#605060"
+color-link comment "#65568a"
 
-color-link constant "#ccae14"
-color-link constant.specialChar "#6a2a3c"
-color-link constant.string "#14cc64"
+color-link constant "#d28e5d"
+color-link constant.specialChar "#986841"
+color-link constant.string "#95c76f"
 
-color-link identifier "#ff1d0d"
-color-link identifier.class "#f000a0"
+color-link identifier "#f84547"
+color-link identifier.class "#efa16b"
 
-color-link preproc "#f000a0"
+color-link preproc "#efa16b"
 
-color-link special "#0075b0"
+color-link special "#64878f"
 
-color-link statement "#ff1d0d"
+color-link statement "#f84547"
 
-color-link symbol.operator "#ddd0dd"
-color-link symbol.tag "#ddd0dd"
+color-link symbol.operator "#d8d8d8"
+color-link symbol.tag "#d8d8d8"
 
-color-link type "#f000a0"
+color-link type "#efa16b"
 
-color-link underlined "#ff1d0d"
+color-link underlined "#f84547"
 
-color-link error "bold #100510,#ff1d0d"
-color-link todo "bold #f000a0,#302030"
-color-link hlsearch "#302030,#f000a0"
-color-link statusline "#bbb0bb,#403040"
-color-link tabbar "#605060,#302030"
-color-link indent-char "#605060"
-color-link line-number "#605060,#302030"
-color-link current-line-number "#bbb0bb,#302030"
+color-link error "bold #292c36,#f84547"
+color-link todo "bold #efa16b,#333344"
+color-link hlsearch "#333344,#efa16b"
+color-link statusline "#b8b8b8,#474160"
+color-link tabbar "#65568a,#333344"
+color-link indent-char "#65568a"
+color-link line-number "#65568a,#333344"
+color-link current-line-number "#b8b8b8,#333344"
 
-color-link diff-added "#14cc64,#302030"
-color-link diff-modified "#605060,#302030"
-color-link diff-deleted "#ff1d0d,#302030"
-color-link gutter-error "#ff1d0d,#302030"
-color-link gutter-warning "#00a0f0,#302030"
+color-link diff-added "#95c76f,#333344"
+color-link diff-modified "#65568a,#333344"
+color-link diff-deleted "#f84547,#333344"
+color-link gutter-error "#f84547,#333344"
+color-link gutter-warning "#8485ce,#333344"
 
-color-link cursor-line "#302030"
-color-link color-column "#302030"
+color-link cursor-line "#333344"
+color-link color-column "#333344"

@@ -26,3 +26,8 @@ template = "spotify"
 rewrite = true
 hook = "spicetify update"
 
+[[items]]
+file = "~/.config/swaync/colors.css"
+template = "waybar"
+rewrite = true
+
