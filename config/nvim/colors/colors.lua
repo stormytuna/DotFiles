@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Catppuccin Macchiato scheme by https://github.com/catppuccin/catppuccin
+-- Purpledream scheme by malet
 
-local gui00 = "#24273a"
-local gui01 = "#1e2030"
-local gui02 = "#363a4f"
-local gui03 = "#494d64"
-local gui04 = "#5b6078"
-local gui05 = "#cad3f5"
-local gui06 = "#f4dbd6"
-local gui07 = "#b7bdf8"
-local gui08 = "#ed8796"
-local gui09 = "#f5a97f"
-local gui0A = "#eed49f"
-local gui0B = "#a6da95"
-local gui0C = "#8bd5ca"
-local gui0D = "#8aadf4"
-local gui0E = "#c6a0f6"
-local gui0F = "#f0c6c6"
+local gui00 = "#100510"
+local gui01 = "#302030"
+local gui02 = "#403040"
+local gui03 = "#605060"
+local gui04 = "#bbb0bb"
+local gui05 = "#ddd0dd"
+local gui06 = "#eee0ee"
+local gui07 = "#fff0ff"
+local gui08 = "#ff1d0d"
+local gui09 = "#ccae14"
+local gui0A = "#f000a0"
+local gui0B = "#14cc64"
+local gui0C = "#0075b0"
+local gui0D = "#00a0f0"
+local gui0E = "#b000d0"
+local gui0F = "#6a2a3c"
 
 local cterm00 = 0
 local cterm03 = 8
@@ -43,7 +43,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "base16-macchiato"
+vim.g.colors_name = "base16-purpledream"
 
 -- Vim editor colors                    fg bg ctermfg ctermbg attr guisp
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

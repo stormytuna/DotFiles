@@ -1,44 +1,44 @@
-# Base16 Catppuccin Macchiato - micro color scheme
-# Scheme by https://github.com/catppuccin/catppuccin
+# Base16 Purpledream - micro color scheme
+# Scheme by malet
 
-color-link default "#cad3f5,#24273a"
+color-link default "#ddd0dd,#100510"
 
-color-link comment "#494d64"
+color-link comment "#605060"
 
-color-link constant "#f5a97f"
-color-link constant.specialChar "#f0c6c6"
-color-link constant.string "#a6da95"
+color-link constant "#ccae14"
+color-link constant.specialChar "#6a2a3c"
+color-link constant.string "#14cc64"
 
-color-link identifier "#ed8796"
-color-link identifier.class "#eed49f"
+color-link identifier "#ff1d0d"
+color-link identifier.class "#f000a0"
 
-color-link preproc "#eed49f"
+color-link preproc "#f000a0"
 
-color-link special "#8bd5ca"
+color-link special "#0075b0"
 
-color-link statement "#ed8796"
+color-link statement "#ff1d0d"
 
-color-link symbol.operator "#cad3f5"
-color-link symbol.tag "#cad3f5"
+color-link symbol.operator "#ddd0dd"
+color-link symbol.tag "#ddd0dd"
 
-color-link type "#eed49f"
+color-link type "#f000a0"
 
-color-link underlined "#ed8796"
+color-link underlined "#ff1d0d"
 
-color-link error "bold #24273a,#ed8796"
-color-link todo "bold #eed49f,#1e2030"
-color-link hlsearch "#1e2030,#eed49f"
-color-link statusline "#5b6078,#363a4f"
-color-link tabbar "#494d64,#1e2030"
-color-link indent-char "#494d64"
-color-link line-number "#494d64,#1e2030"
-color-link current-line-number "#5b6078,#1e2030"
+color-link error "bold #100510,#ff1d0d"
+color-link todo "bold #f000a0,#302030"
+color-link hlsearch "#302030,#f000a0"
+color-link statusline "#bbb0bb,#403040"
+color-link tabbar "#605060,#302030"
+color-link indent-char "#605060"
+color-link line-number "#605060,#302030"
+color-link current-line-number "#bbb0bb,#302030"
 
-color-link diff-added "#a6da95,#1e2030"
-color-link diff-modified "#494d64,#1e2030"
-color-link diff-deleted "#ed8796,#1e2030"
-color-link gutter-error "#ed8796,#1e2030"
-color-link gutter-warning "#8aadf4,#1e2030"
+color-link diff-added "#14cc64,#302030"
+color-link diff-modified "#605060,#302030"
+color-link diff-deleted "#ff1d0d,#302030"
+color-link gutter-error "#ff1d0d,#302030"
+color-link gutter-warning "#00a0f0,#302030"
 
-color-link cursor-line "#1e2030"
-color-link color-column "#1e2030"
+color-link cursor-line "#302030"
+color-link color-column "#302030"

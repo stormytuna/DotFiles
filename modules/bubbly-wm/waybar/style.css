@@ -1,26 +1,27 @@
 @import "colors.css";
 
+/* TODO: Fix! */
+
 * {
-  opacity: 0.95;
-  border: none;
-  border-radius: 0;
-  font-family: "JetBrainsMono Nerd Font", FontAwesome;
-  font-weight: bold;
-  font-size: 14px;
-  min-height: 0;
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", FontAwesome;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
 }
 
 window#waybar {
-  background: @base01;
-  color: #cdd6f4;
+    background: @base02;
+    color: #cdd6f4;
 }
 
 tooltip {
-  background: @base02;
-  border-radius: 8px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: @base01;
+    background: @base00;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: @base01;
 }
 
 #custom-shutdown,
@@ -36,9 +37,11 @@ tooltip {
 #memory,
 #network,
 #clock {
-  background: @base01;
-	padding: 2px 10px;
-  color: #eeeeee;
+	padding: 2px 6px;
+    color: #eeeeee;
+    border: solid;
+    border-width: 1px;
+    border-color: @base01
 }
 
 #custom-shutdown {

@@ -1,23 +1,23 @@
 /*
 *
-* Base16 Catppuccin Macchiato
-* Author: https://github.com/catppuccin/catppuccin
+* Base16 Purpledream
+* Author: malet
 *
 */
 
-@define-color base00 #24273a;
-@define-color base01 #1e2030;
-@define-color base02 #363a4f;
-@define-color base03 #494d64;
-@define-color base04 #5b6078;
-@define-color base05 #cad3f5;
-@define-color base06 #f4dbd6;
-@define-color base07 #b7bdf8;
-@define-color base08 #ed8796;
-@define-color base09 #f5a97f;
-@define-color base0A #eed49f;
-@define-color base0B #a6da95;
-@define-color base0C #8bd5ca;
-@define-color base0D #8aadf4;
-@define-color base0E #c6a0f6;
-@define-color base0F #f0c6c6;
+@define-color base00 #100510;
+@define-color base01 #302030;
+@define-color base02 #403040;
+@define-color base03 #605060;
+@define-color base04 #bbb0bb;
+@define-color base05 #ddd0dd;
+@define-color base06 #eee0ee;
+@define-color base07 #fff0ff;
+@define-color base08 #ff1d0d;
+@define-color base09 #ccae14;
+@define-color base0A #f000a0;
+@define-color base0B #14cc64;
+@define-color base0C #0075b0;
+@define-color base0D #00a0f0;
+@define-color base0E #b000d0;
+@define-color base0F #6a2a3c;
